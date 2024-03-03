@@ -1,6 +1,6 @@
 {
   "name": "react-native-nt-calendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React native calendar supporting hijri and gregorian calendar systems, highly customizable and with zero dependency on date libraries like moment or day js",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

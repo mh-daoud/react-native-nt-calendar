@@ -1,6 +1,16 @@
 # react-native-nt-calendar
 
-React native calendar supporting hijri and gregorian calendar systems, highly customizable and with zero dependency on date libraries like moment or day js
+## What is this ?
+React native calendar supporting Hijri and Gregorian calendar systems, highly customizable and with zero dependency on date libraries like moment or day js
+
+## Why create this and not use an already existing package ?
+
+for two main reasons 
+- First the other alternative packages does not support Hijri calender.
+- Second this will be designed to support the ability to modify the Calender component designs and also the whole layout of the calender.
+- Thrid (extra):  is that the most used and recommend component till the create of this repo was created by a team that I don't want to use their products or services for personal reasons. 
+
+and mostly becuase I want to 
 
 ## Installation
 
@@ -10,13 +20,18 @@ npm install react-native-nt-calendar
 
 ## Usage
 
-```js
-import { multiply } from 'react-native-nt-calendar';
+```tsx
+import NTCalendar from 'react-native-nt-calendar';
+import { NTCalendarType } from 'react-native-nt-calendar/NTCalendar/types';
 
 // ...
 
-const result = await multiply(3, 7);
+<NTCalendar calendarType={NTCalendarType.Hijri} />
 ```
+
+## Props
+
+coming soon!!
 
 ## Contributing
 
@@ -25,7 +40,3 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 ## License
 
 MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)

@@ -128,3 +128,43 @@ export interface NTHijriDateComponents {
   monthEndDate: Date;
   monthDaysCount: number;
 }
+
+export interface NTDayComponentProps {
+  day: number;
+  onDayPress?: (day: number) => void;
+  isDayCurrentDate?: boolean;
+  isDaySelected?: boolean;
+  theme?: NTMonthDisplayComponentTheme;
+}
+
+export interface NTHeaderComponentProps {
+  monthName: string;
+  year: number;
+  onControlButtonPressed: (incrementAmount: number) => void;
+  isNextMonthButtonDisabled?: boolean;
+  isPrevMonthButtonDisabled?: boolean;
+  theme?: NTHeaderComponentTheme;
+}
+
+export interface NTMonthComponentProps {
+  currentDate: Date;
+  weeksOfMonth: NTWeek[];
+  currentDayOfTheMonth?: number;
+  onDayPress?: (day: number) => void;
+  selectedDaysInMonth?: number[];
+  theme?: NTMonthDisplayComponentTheme;
+}
+
+export interface NTWeekComponentProps {
+  week: NTWeek;
+  currentDate: Date;
+  currentDayOfTheMonth?: number;
+  onDayPress?: (day: number) => void;
+  selectedDaysInMonth?: number[];
+  theme?: NTMonthDisplayComponentTheme;
+}
+
+export interface NTWeekHeaderProps {
+  daysOfWeek: Record<string, string>;
+  theme?: NTWeekHeaderComponentTheme;
+}

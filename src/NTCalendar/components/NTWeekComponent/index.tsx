@@ -1,8 +1,8 @@
 import { View } from 'react-native';
 import getStyles from './styles';
 import NTDayComponent from '../NTDayComponent';
-import type { NTWeekComponentProps } from './types';
 import React from 'react';
+import type { NTWeekComponentProps } from '../../types';
 
 export const NTWeekComponent = ({
   week,

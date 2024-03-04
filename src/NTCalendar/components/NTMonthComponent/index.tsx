@@ -1,9 +1,9 @@
 import { View } from 'react-native';
-import type { NTMonthComponentProps } from './types';
 import getStyles from './styles';
 import NTWeekComponent from '../NTWeekComponent';
 import { useCallback } from 'react';
 import React from 'react';
+import type { NTMonthComponentProps } from '../../types';
 
 export const NTMonthComponent = ({
   weeksOfMonth,

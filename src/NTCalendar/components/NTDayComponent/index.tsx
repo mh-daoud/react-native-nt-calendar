@@ -1,8 +1,8 @@
 import { Text, TouchableOpacity, View } from 'react-native';
-import type { NTDayComponentProps } from './types';
 import getStyles from './styles';
 import { useCallback, useMemo } from 'react';
 import React from 'react';
+import type { NTDayComponentProps } from '../../types';
 
 export const NTDayComponent = ({
   day,

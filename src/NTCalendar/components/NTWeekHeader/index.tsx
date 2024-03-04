@@ -1,7 +1,7 @@
 import { Text, View } from 'react-native';
-import type { NTWeekHeaderProps } from './types';
 import getStyles from './styles';
 import React from 'react';
+import type { NTWeekHeaderProps } from '../../types';
 
 export const NTWeekHeader = ({ daysOfWeek, theme }: NTWeekHeaderProps) => {
   const styles = getStyles();

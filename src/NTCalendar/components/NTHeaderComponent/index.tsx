@@ -1,7 +1,7 @@
 import { Image, Text, TouchableOpacity, View } from 'react-native';
-import type { NTHeaderComponentProps } from './types';
 import getStyles from './styles';
 import React from 'react';
+import type { NTHeaderComponentProps } from '../../types';
 
 export const NTHeaderComponent = ({
   monthName,

@@ -21,12 +21,11 @@ npm install react-native-nt-calendar
 ## Usage
 
 ```tsx
-import NTCalendar from 'react-native-nt-calendar';
-import {NTCalendarTypes} from 'react-native-nt-calendar'
+import NTCalendar, {NTCalendarType} from 'react-native-nt-calendar';
 
 // ...
 
-<NTCalendar calendarType={NTCalendarTypes.NTCalendarType.Hijri} />
+<NTCalendar calendarType={NTCalendarType.Hijri} />
 ```
 
 ## Props
